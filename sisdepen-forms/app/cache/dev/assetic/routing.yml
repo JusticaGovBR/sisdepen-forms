@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /home/renatomefi/Dropbox/Workspace/php/sisdepen-forms/sisdepen-forms/app/config/routing_dev.yml
