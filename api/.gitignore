@@ -15,5 +15,4 @@ config/autoload/*.local.php
 !public/vendor/README.md
 data/cache/*
 !data/cache/.gitkeepvendor/
-composer.lock
 .puppet/
