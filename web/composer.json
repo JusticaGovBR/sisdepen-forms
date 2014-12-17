@@ -1,8 +1,8 @@
 {
-  "name": "symfony/framework-standard-edition",
+  "name": "pensandoodireito/sisdepen-forms",
   "license": "MIT",
   "type": "project",
-  "description": "The \"Symfony Standard Edition\" distribution",
+  "description": "",
   "autoload": {
     "psr-0": {
       "": "src/",
@@ -11,15 +11,22 @@
   },
   "require": {
     "php": ">=5.3.3",
+
     "symfony/symfony": "2.6.*",
-    "doctrine/orm": "~2.2,>=2.2.3",
-    "doctrine/doctrine-bundle": "~1.2",
-    "twig/extensions": "~1.0",
     "symfony/assetic-bundle": "~2.3",
     "symfony/swiftmailer-bundle": "~2.3",
     "symfony/monolog-bundle": "~2.4",
+
+    "doctrine/doctrine-bundle": "~1.2",
+    "doctrine/orm": "~2.2,>=2.2.3",
+    "doctrine/mongodb": "1.2.*@dev",
+    "doctrine/mongodb-odm": "1.0.*@dev",
+
+    "twig/extensions": "~1.0",
+
     "sensio/distribution-bundle": "~3.0",
     "sensio/framework-extra-bundle": "~3.0",
+
     "incenteev/composer-parameter-handler": "~2.0",
 
     "friendsofsymfony/rest-bundle": "~1.4",

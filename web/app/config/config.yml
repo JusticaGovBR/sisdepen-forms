@@ -86,3 +86,8 @@ fos_rest:
             html: true
         failed_validation: HTTP_BAD_REQUEST
         default_engine: twig
+
+fos_user:
+    db_driver: mongodb
+    firewall_name: main
+    user_class: AppBundle\Entity\User
