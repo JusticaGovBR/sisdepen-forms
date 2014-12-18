@@ -1,5 +1,5 @@
 <?php
-namespace AppBundle\Entity;
+namespace AppBundle\Document;
 
 use FOS\UserBundle\Document\User as BaseUser;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
@@ -18,6 +18,8 @@ class User extends BaseUser
     public function __construct()
     {
         parent::__construct();
+
+        //to
     }
 
 }
