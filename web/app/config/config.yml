@@ -72,7 +72,13 @@ doctrine_mongodb:
     default_database: sisdepen-forms
     document_managers:
         default:
-            auto_mapping: true
+            auto_mapping: false
+            mappings:
+                FOSUserBundle: ~
+                AppBundle:
+                    type: annotation
+                    dir: %kernel.root_dir%/../src/AppBundle/Entity
+                    prefix: AppBundle\Entity
 
 # Swiftmailer Configuration
 swiftmailer:

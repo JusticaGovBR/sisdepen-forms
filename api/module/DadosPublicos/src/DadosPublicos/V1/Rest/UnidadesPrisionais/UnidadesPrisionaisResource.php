@@ -61,7 +61,7 @@ class UnidadesPrisionaisResource extends AbstractResourceListener
 
         return [1 => 'Pirapora',
                 2 => 'Pindamonhangaba'];
-//        return new ApiProblem(405, 'The GET method has not been defined for collections');
+        return new ApiProblem(405, 'The GET method has not been defined for collections');
     }
 
     /**
