@@ -12,7 +12,8 @@ class UsersController extends FOSRestController
      */
     public function getUsersAction()
     {
-        $data = ['user1', 'user2', 'user3', 'user4'];
+
+        $data = $this->get('doctrine_mongodb')->getRepository('AppBundle:User')->findAll();
 
         $view = $this->view($data, 200)
             ->setTemplate("users/getUsers.html.twig")
