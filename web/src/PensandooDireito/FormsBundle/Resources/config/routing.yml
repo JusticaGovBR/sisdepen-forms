@@ -1,0 +1,3 @@
+pensandoo_direito_forms_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PensandooDireitoFormsBundle:Default:index }

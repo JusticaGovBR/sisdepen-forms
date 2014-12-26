@@ -1,3 +1,7 @@
+pensandoo_direito_forms:
+    resource: "@PensandooDireitoFormsBundle/Resources/config/routing.yml"
+    prefix:   /form
+
 app:
     resource: @AppBundle/Controller/
     type:     annotation
